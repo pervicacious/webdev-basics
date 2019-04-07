@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .top{
+            background-image:url("images/ncu1.jpg");
+            height:500px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color:black;
+            font-size:150%;
+            height: 20%;
+        }
+        .impact{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size:155%;
+        }
+        div{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: justify;
+        }
+        #center div{
+            text-align: center;
+        }
+        body{
+    max-width: 1080px;
+    margin: 0 auto !important;
+    float: none !important;
+    border-left: 20px solid rgb(187, 9, 9);
+    border-right: 20px solid rgb(187, 9, 9);
+    border-bottom: 20px solid rgb(187, 9, 9);
+    }
+    header{
+        height:103px;
+        background-color:rgb(187, 9, 9);
+        color:white;
+    }
+    .log{
+        width: 20px;
+    }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:black;
+  overflow:hidden;
+  color:white;
+}
+li{
+    /* display:inline; */
+     float: left;
+}
+li a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+}
+li a:hover{
+background-color:dimgray;
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  padding: 10px;
+  
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    </style>
+</head>
+<body>
+    <!-- <table border="3" style="width:100%;" cellpadding="50"> -->
+        <!-- <tr class="top impact"> -->
+            <header class="impact"><center>Professional Societies</br> at </br>The NorthCap University</center></header>
+            <div class="top" style="height:220px"></div>
+       
+            <div class="row">
+                    <div class="column left">
+                        <h2 class="impact"><center>Member Login</center></h2>
+                        <div>
+                        <form action="" method="POST">
+                            <table>
+                                    <tr>
+                                            <td>Name</td>
+                                            <td>
+                                                <input type="text" name="username" placeholder="Enter Name">
+                                             </td>
+                                         </tr>
+                                         <tr>
+                                             <td>Password</td>
+                                             <td>
+                                                 <input type="password" name="pass" placeholder="Enter Password">
+                                             </td>
+                                            </tr> 
+                                        <tr>
+                                            <td>
+                                                <div id="center"><input type="submit" value="Submit"></div>
+                                            </td>
+                                         </tr>
+                            </table>
+                        </form>
+                        </div>
+                    </div>
+                    
+            <div class="column right">
+            <!-- <td  width="200" style="background-color:darkred;color:white;"> -->
+                <!-- <h2 class="impact">Side Menu</h2> -->
+                <div>
+                <ul>
+                    <li><a href="#home"> Home</a></li>
+                    <li><a href="#home"> ACM</a></li>
+                    <li><a href="#home"> OSA</a></li>
+                    <li><a href="#home"> ASQ</a></li>
+                    <li><a href="#home"> Space</a></li>
+                    <li><a href="#home">Rotaract</a></li>
+                </ul>
+                <h4>Select Your Stream</h4>
+            
+                <input type="radio" name="stream" id="CSE" value="c"><label>CSE</label>
+            </br><input type="radio" name="stream" id="EEC" value="e"><label>EEC</label>
+            </br><input type="radio" name="stream" id="Mechanical" value="m"><label>Mechanical</label>
+            </br><input type="radio" name="stream" id="Civil" value="c"><label>Civil</label>
+            </div>
+            
+            
+            <!-- <td width="250" style="background-color:darkred;color:white;"> -->
+                <div class="column right">
+                <dl>
+                    <h2 class="impact"><center>About the Societies</center></h2>
+                    <div id="about">
+                        <dt>1. ACM</dt>
+                        <dd>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Association_for_Computing_Machinery_%28ACM%29_logo.svg/300px-Association_for_Computing_Machinery_%28ACM%29_logo.svg.png" alt="ACM logo" height="80" width="80">
+                            </br>Association of Computing Machinery
+                    </dd>
+                </br>
+                        <dt>2.OSA</dt>
+                        <dd>
+                          <img src="images/osa.jpg" height="80"  width="80" alt="OSA logo">
+                        </br> Optical Society of America                            
+                    </br>
+                </br>
+                    </dd>
+                        <dt>3. ASQ</dt>
+                        <dd>
+                                <img src="images/asq.jpg" alt="ASQ logo" height="80" width"80">
+                                
+                        </br>American Society of Quality</dd>
+                    </br>
+                        <dt>4. CSI</dt>
+                        <dd>
+                                <img src="images/csi.png" height="80" width="80">
+                        </br>Computer Society of India</dd>
+                    </br>
+                        <dt>5. Rotaract</dt>
+                        <dd>
+                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Rotaract_Logo_2015.svg/1200px-Rotaract_Logo_2015.svg.png" height="80"  width="80" alt="OSA logo">
+                        </br>Road safety society</dd>
+                    </dl>
+                 </div>
+                </div>   
+                </div>        
+
+            <!-- <td  style="background-color:darkred;color:white;font-size:110%;"colspan="3"> -->
+                
+                    <footer style="background-color:rgb(187, 9, 9);color:white;font-size:120%; height:50px;"><center>The NorthCap University. All rights reserved.</center></footer>
+               
+            </div>
+            
+        
+</body>
+</html>
